@@ -1,0 +1,8 @@
+default: 
+  @just --list
+
+run:
+  ./venv/bin/python3.11 code.py
+
+deps:
+  pip3 install -r requirements.txt

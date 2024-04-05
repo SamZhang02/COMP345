@@ -1,0 +1,5 @@
+run:
+  ./venv/bin/python3 ./code.py
+
+fmt:
+  black . 
